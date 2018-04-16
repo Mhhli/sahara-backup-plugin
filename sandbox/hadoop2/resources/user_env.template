@@ -1,0 +1,12 @@
+
+# Environment of the Hadoop
+export HADOOP_HOME=/opt/hadoop
+export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin
+
+# Environment of the Hive
+export HIVE_HOME=/opt/hive
+export PATH=$PATH:$HIVE_HOME/bin
+
+# Environment of the Spark
+export SPARK_HOME=/opt/spark
+export PATH=$PATH:$SPARK_HOME/bin
